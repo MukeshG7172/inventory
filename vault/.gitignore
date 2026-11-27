@@ -13,6 +13,7 @@ target/
 .springBeans
 .sts4-cache
 
+
 ### IntelliJ IDEA ###
 .idea
 *.iws
@@ -31,3 +32,20 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Local secrets and credentials ###
+.env
+.env.*
+!.env.example
+application-local.properties
+application-*.local.properties
+/src/main/resources/application.properties
+credentials.json
+secrets.yml
+secrets.yaml
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
