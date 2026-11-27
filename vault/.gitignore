@@ -39,7 +39,7 @@ build/
 !.env.example
 application-local.properties
 application-*.local.properties
-/src/main/resources/application.properties
+application.properties
 credentials.json
 secrets.yml
 secrets.yaml
